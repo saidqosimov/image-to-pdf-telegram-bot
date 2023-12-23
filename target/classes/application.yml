@@ -1,0 +1,23 @@
+bot.name :
+  ImageToPdf2Bot
+bot.token :
+  6960443118:AAHSF5mOuT_aUc8UTZUidxBA1bJbCANrGkQ
+bot.admin :
+  5540407547
+
+spring:
+  datasource:
+    url: jdbc:postgresql://roundhouse.proxy.rlwy.net:14676/railway
+    username: postgres
+    password: dGeG43b-A3gAe2eAbEBAAFgb64gfGd6b
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
